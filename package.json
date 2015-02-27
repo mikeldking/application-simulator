@@ -1,0 +1,26 @@
+{
+  "name": "application-simulator",
+  "version": "0.0.0",
+  "description": "A web application simulator with configurable application delays and payloads",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikeldking/application-simulator.git"
+  },
+  "author": "Mikel King",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikeldking/application-simulator/issues"
+  },
+  "homepage": "https://github.com/mikeldking/application-simulator",
+  "dependencies": {
+    "express": "4.12.0",
+    "lodash": "3.3.1",
+    "morgan": "1.5.1",
+    "body-parser": "1.12.0",
+    "jade": "1.9.2"
+  }
+}

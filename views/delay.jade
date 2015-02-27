@@ -1,0 +1,14 @@
+extends layout
+
+block content
+    h1= title
+    p #{message}
+
+    ul
+        li: a(href='./delay?delay=1000') Delay 1 Second
+        li: a(href='./delay?delay=2000') Delay 2 Seconds
+        li: a(href='./delay?delay=5000') Delay 5 Seconds
+        li: a(href='./delay?delay=10000') Delay 10 Seconds
+        li: a(href='./delay?delay=30000') Delay 30 Seconds
+        li: a(href='./delay?delay=60000') Delay 1 Minute
+        li: a(href='./delay?delay=120000') Delay 2 Minutes
