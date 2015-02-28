@@ -1,0 +1,8 @@
+extends layout
+block content
+    h1= title
+    ul
+    li: a(href='./data?octets=10240') Download 10kB
+    li: a(href='./data?octets=102400') Download 100kB
+    li: a(href='./data?octets=1048576') Download 1MB
+    li: a(href='./data?octets=10485760') Download 10MB

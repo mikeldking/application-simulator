@@ -17,7 +17,7 @@ module.exports = function(app){
     //app.use(favicon(__dirname + '/public/favicon.ico'));
     app.use(logger('dev'));
     app.use(bodyParser.json());
-    app.use(bodyParser.urlencoded({ extended: false }));
+    app.use(bodyParser.urlencoded({extended: true, limit: '10mb'}));
     app.use(express.static(path.join(appPath, 'public')));
 
     util.walk(appPath + '/routes', 'middlewares', function(path) {
